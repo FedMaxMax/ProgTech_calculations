@@ -23,7 +23,7 @@ choice = strtod(text.c_str(),NULL);
 switch (choice)
     {
     case 1:
-        std::cout << "Функция в разработке.";
+        std::cout << addition(num1, num2);
         break;
     case 2:
         std::cout << "Функция в разработке.";
